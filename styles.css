@@ -1,0 +1,72 @@
+body{
+	background-color: #00539CFF;
+	font-size: 13pt;
+	background-position: center;
+	margin-bottom: 2%;
+}
+h2{
+	background-color:dodgerblue;
+	text-align: center;
+	line-height: 0px;
+	font-family: Tahoma;
+}
+h3{
+	line-height: 25pt;
+}
+h4{
+	margin-right: 18%;
+	background-color: aqua;
+	font-family: Verdana, serif;
+	line-height: 20pt;
+}
+p{
+	text-align: center;
+	text-shadow: 23px 4px 22px rgba(248,244,5,0.69);
+	color: white;
+}
+table{
+	max-width: 100%;
+	width: 100%;
+	background-color: aquamarine;
+}
+th,td{
+	padding: 10px;
+}
+p{
+	background-blend-mode: soft-light;
+	margin: 0%, 18%, 0%, 18%;
+	text-shadow: 4px -4px 7px rgba(164,58,206,0);
+}
+ul{
+	font-family: Courier New;
+	margin-left: 10%;
+	text-shadow: 6px 0px 17px rgba(5,245,248,0.69);
+	color: white;
+}
+dfn{
+	text-align: center;
+	margin: 22%;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: dodgerblue;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: purple;
+  color: white;
+}
