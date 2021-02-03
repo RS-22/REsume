@@ -4,16 +4,16 @@
 	border-color: none;
 }
 .header-box{
-	margin-left: 20%;
-	margin-right: 20%;
+	margin-left: 18%;
+	margin-right: 18%;
 	text-align: center;
 	background-image: url(images/Header.jpg);
 }
 .body-box{
-	margin-left: 20%;
-	margin-right: 20%;
+	margin-left: 18%;
+	margin-right: 18%;
 	display: grid;
-	grid-template-columns: 1fr 2fr;
+	grid-template-columns: 1fr 2.25fr;
 	margin-bottom: 5%;
 }
 .profile-box {
@@ -27,6 +27,7 @@
 }
 .name-box{
 	background-color: #333D79FF;
+	background-image: url(images/background2.jpg);
 }
 .frame-box{
 
@@ -43,10 +44,14 @@
 	border-radius: 50%;
 	border-style: solid;
 }
+.icons{
+
+}
 
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: gray;
 }
 img{
 	padding: 5px;
@@ -58,16 +63,17 @@ h1{
 	text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
   	color: white;
 	font-family: Times New Roman;
-	font-size: 40pt;
+	font-size: 3em;
 }
 h2{
 	text-align: center;
 	text-shadow: 2px -1px 17px rgba(18, 179, 232, 1);
 	color: white;
 	font-family: Tahoma;
+	font-size: 2em;
 }
 p{
-	text-align: center;
+	text-align: justify;
 }
 u{
 	font-size: 15pt;

@@ -1,5 +1,5 @@
 body{
-	background-color: #00539CFF;
+	background-color: #3D72A4;
 	font-size: 13pt;
 	background-position: center;
 	margin-bottom: 2%;
@@ -27,10 +27,10 @@ p{
 table{
 	max-width: 100%;
 	width: 100%;
-	background-color: aquamarine;
 }
 th,td{
 	padding: 10px;
+	color: white;
 }
 p{
 	background-blend-mode: soft-light;
@@ -42,6 +42,7 @@ ul{
 	margin-left: 10%;
 	text-shadow: 6px 0px 17px rgba(5,245,248,0.69);
 	color: white;
+	list-style-position: outside;
 }
 dfn{
 	text-align: center;
@@ -62,11 +63,11 @@ dfn{
 }
 
 .topnav a:hover {
-  background-color: dodgerblue;
+  background-color: aquamarine;
   color: black;
 }
 
 .topnav a.active {
-  background-color: purple;
+  background-color: darkblue;
   color: white;
 }
